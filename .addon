@@ -1,0 +1,46 @@
+{
+  "Title": "Replicator Melons",
+  "Type": "addon",
+  "Org": "dragoteryx",
+  "Ident": "rep_melons",
+  "Tags": "runtime npc",
+  "Schema": 1,
+  "HasAssets": false,
+  "AssetsPath": "",
+  "ResourcePaths": null,
+  "HasCode": true,
+  "CodePath": "/code/",
+  "Metadata": {
+    "PrimaryAsset": "RepMelons.RepMelon",
+    "PhysicsMins": "-1,-1,-1",
+    "PhysicsMaxs": "1,1,1",
+    "RenderMins": "-1,-1,-1",
+    "RenderMaxs": "-1,-1,-1",
+    "PackageSettings": [
+      {
+        "DisplayType": "Integer",
+        "Choices": [],
+        "ConVarName": "rep_melons_max",
+        "DisplayName": "Max Replicator Melons",
+        "DefaultValue": "30",
+        "Description": "How many replicator melons can exist simultaneously. This doesn\u0027t stop players from spawning more, but will prevent the melons from replicating any further.",
+        "Group": "",
+        "Maximum": 100
+      },
+      {
+        "DisplayType": "Boolean",
+        "Choices": [],
+        "ConVarName": "rep_melons_ignore_players",
+        "DisplayName": "Ignore Players",
+        "DefaultValue": "false",
+        "Description": "Should melons target players?",
+        "Group": ""
+      }
+    ],
+    "ParentPackage": "facepunch.sandbox",
+    "Summary": "The replicator melons from Garry\u0027s Mod in s\u0026box.",
+    "Description": "The replicator melons from Garry\u0027s Mod in s\u0026box. This isn\u0027t a perfect port, more like an attempt to learn the s\u0026box C# API.",
+    "Public": false,
+    "ReplaceTags": "runtime npc"
+  }
+}
