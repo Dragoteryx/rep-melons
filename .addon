@@ -7,9 +7,12 @@
   "Schema": 1,
   "HasAssets": false,
   "AssetsPath": "",
-  "ResourcePaths": null,
+  "Resources": null,
+  "MenuResources": null,
   "HasCode": true,
   "CodePath": "/code/",
+  "PackageReferences": [],
+  "EditorReferences": null,
   "Metadata": {
     "PrimaryAsset": "RepMelons.RepMelon",
     "PhysicsMins": "-1,-1,-1",
@@ -41,6 +44,7 @@
     "Summary": "The replicator melons from Garry\u0027s Mod in s\u0026box.",
     "Description": "The replicator melons from Garry\u0027s Mod in s\u0026box. This isn\u0027t a perfect port, more like an attempt to learn the s\u0026box C# API.",
     "Public": false,
-    "ReplaceTags": "runtime npc"
+    "ReplaceTags": "runtime npc",
+    "CsProjName": ""
   }
 }
